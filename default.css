@@ -45,6 +45,7 @@ textarea {
 a {
     text-decoration: none;
     color: #17a2b8;
+    font-family: "Roboto Mono", monospace;
 }
 
 ul {
@@ -280,6 +281,30 @@ h6 {
 #corner-bl {
     bottom: -5px;
     left: -5px;
+}
+
+.about-wrapper {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
+    padding-bottom: 50px;
+    padding-top: 50px;
+    gap: 100px;
+}
+
+#skills {
+    display: flex;
+    justify-content: space-evenly;
+    background-color: var(--previewShadow);
+}
+
+#social_img {
+    width: 500px;
+}
+
+.social-links {
+    display: grid;
+    justify-content: center;
+    text-align: center;
 }
 
 @media screen and (max-width: 1200px) {
