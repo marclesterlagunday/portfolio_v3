@@ -21,6 +21,10 @@ body {
     margin: 0;
 }
 
+body * {
+    transition: 0.3s;
+}
+
 h1,
 h2,
 h3,
@@ -120,7 +124,11 @@ h6 {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #eaeaea;
+    background: var(--mainColor);
+}
+
+#navigation a {
+    color: var(--mainText);
 }
 
 #navigation {
