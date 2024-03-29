@@ -360,6 +360,13 @@ h6 {
 .post-intro {
     color: #4b5156;
     font-size: 14px;
+    margin: 8px 0 0 0;
+}
+
+.post-date {
+    color: #4b5156;
+    font-size: 14px;
+    margin: 0 0 12px 0;
 }
 
 .contact-wrapper h3 {
