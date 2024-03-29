@@ -307,6 +307,10 @@ h6 {
     background-color: var(--previewShadow);
 }
 
+#skills ul {
+    padding: 10px;
+}
+
 #social_img {
     width: 100%;
 }
